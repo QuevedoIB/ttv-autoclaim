@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TTV Autoclaim view points",
+  "version": "1.0",
+  "description": "Claims twitch viewing points box reward automatically",
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
