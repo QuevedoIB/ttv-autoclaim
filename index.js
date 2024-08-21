@@ -3,4 +3,4 @@ const autoClaim = () => {
   setTimeout(() => autoClaim(), 60000);
 };
 
-window.onload(autoClaim);
+autoClaim();
